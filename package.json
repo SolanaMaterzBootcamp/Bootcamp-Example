@@ -1,0 +1,29 @@
+{
+  "name": "masterz-basics",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "keygen": "ts-node ./lezione4/keygen.ts",
+    "airdrop": "ts-node ./lezione4/airdrop.ts",
+    "transfer": "ts-node ./lezione4/transfer.ts",
+    "createMint": "ts-node ./lezione5/spl_init.ts",
+    "mintToken": "ts-node ./lezione5/spl_mint.ts",
+    "transferToken": "ts-node ./lezione5/spl_transfer.ts",
+    "uploadImage": "ts-node ./lezione6/uploadImage.ts",
+    "splMetadata": "ts-node ./lezione6/splMetadata.ts"
+  },
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.1",
+    "@metaplex-foundation/umi-uploader-irys": "^0.9.1",
+    "@solana/spl-token": "^0.4.6",
+    "@solana/web3.js": "^1.91.7",
+    "@types/node": "^20.12.7",
+    "bs58": "^5.0.0",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
